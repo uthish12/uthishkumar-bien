@@ -1,0 +1,14 @@
+img { border: 0; }
+.banner{ width:850px; height:auto; position:relative; margin:0 auto;}
+body{margin:0; border:none;}
+/* Tiny Circleslider */
+#rotatescroll { height:650px; position:relative; width:810px;}
+#rotatescroll .viewport{width:780px ; height:630px; position: relative; margin:0 auto; overflow:hidden; }
+#rotatescroll .overview { position: absolute; width: 800px; list-style: none; margin: 0; padding: 0; top:10px; 
+left: 0; }
+#rotatescroll .overview li { height:630px; width:650px; float: left; position: relative; background:#000ccc; }
+#rotatescroll .overlay {background:url(images/bg-rotatescroll-Copy.png) no-repeat 0 0; pointer-events: none; position: absolute; left: 0px; top: -10px; height:650px; width:800px;}
+#rotatescroll .thumb { background:url(images/bg-thumb.png) no-repeat 1% 1%; position: absolute; top: -10px; 
+cursor: pointer; left: 0px; width: 50px; z-index: 10;  height: 50px; }
+#rotatescroll .dot { background:url(images/bg-dot.png) no-repeat 0 0; display: none; height: 10px; width: 10px; position: absolute; left: 0; top: 0; z-index: 10;}
+#rotatescroll .dot span { display: none;}
